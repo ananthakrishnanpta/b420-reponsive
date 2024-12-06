@@ -1,0 +1,69 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    .container {
+        /* background-color: black; */
+        padding: 0;
+        max-width: 430px;
+        min-height: 100vh;
+        margin: auto;
+        border: 1px solid green;
+
+       header#site-header {
+        nav.fixed-top {
+            max-width: 430px;
+            margin: auto;
+            height: 60px;
+        }
+
+       }
+       main {
+        
+        margin-top: 59px;
+        section#main-carousel {
+            .carousel {
+                height: 150px;
+                .carousel-inner {
+                    height: 100%;
+                    .carousel-item{
+                        height: 100%;
+                        img {
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+
+        }
+        section.video-ad {
+            position: relative;
+            video {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+            }
+            h2 {
+                position: absolute;
+                z-index: 10;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: auto;
+                text-wrap:nowrap;
+                color: white;
+                text-shadow: 1px 1px rgb(0, 200, 250);
+                font-size: 1.2rem;  
+            }
+        }
+       }
+        
+    }
+
+
+}
